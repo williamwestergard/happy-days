@@ -1,7 +1,7 @@
 
 @media all and (min-width:1600px) {
     .listen-button {
-      padding: 25px 2.5vw;
+      padding: 25px 2.6vw;
       line-height: clamp(22px, 2vw, 27px);
       height: 100px;
     }
@@ -20,7 +20,7 @@ main {
   }
   
   .main-container {
-    margin-top: 10px;
+    margin-top: 20px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ main {
   
   .audio-tag {
     position: relative;
-    left:47px;
+    left:52px;
     align-self: flex-start;
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -46,7 +46,7 @@ main {
   header {
     background-color: var(--third-color);
     color: var(--primary-color);
-    padding: 20px 85px;
+    padding: 20px 87px;
     box-shadow: inset 0px 0px 0px 5px var(--primary-color);
     border: 3px solid var(--secondary-color);
     display: flex;
@@ -101,7 +101,7 @@ main {
     justify-content: flex-start;
     align-self: flex-start;
     position: absolute;
-    bottom: 4px;
+    bottom: 14px;
   }
   
   .listen-button p {
@@ -200,11 +200,11 @@ main {
   }
   .about-image {
     position: relative;
-    margin-right:-10px;
-    top:-5px;
+    margin-right:-12px;
+    top:-8px;
     padding:30px 30px 30px 30px;
-    width:200px;
-    height:200px;
+    width:210px;
+    height:210px;
     border-radius: 34px;
   }
   
@@ -222,7 +222,7 @@ main {
     width:15px;
     height:25px;
     bottom:0px;
-    left:163px;
+    left:155px;
     z-index:10;
     position: absolute;
   }
@@ -232,16 +232,16 @@ main {
     position: absolute;
     background-color: var(--primary-color);
     bottom:0;
-    width:163px;
+    width:155px;
     height:70px;
     border-top-right-radius: 10px;
   }
   
   
   .follow {
-    margin-top:8px;
+    margin-top:9px;
     font-size: 13px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
   }
   
   .socials-container {
@@ -400,7 +400,7 @@ main {
   
   #back p {
    position: relative;
-   top:3px;
+   top:1px;
   }
   
   .music-section-container  {

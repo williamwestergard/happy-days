@@ -501,7 +501,7 @@ transform: translate(-50%, -50%);
 }
 
 
-
+/*
 /*Animated background */
 @keyframes move-it {
   0% {
@@ -520,4 +520,5 @@ body {
   #232320 10%);
   background-size: 300px 300px;
   animation: move-it 4s linear infinite;
-}
+} 
+*/

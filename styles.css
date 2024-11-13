@@ -32,8 +32,8 @@ main {
   top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width:clamp(720px, 10vw, 877px);
-  height: clamp(630px, 10vw, 750px);
+  width:clamp(720px, 50vw, 847px);
+  height: clamp(630px, 50vw, 660px);
   background-color: var(--primary-color);
   border-radius: 5px;
 }
@@ -76,7 +76,7 @@ header h1 {
   position: relative;
   top: clamp(-5px, 5vw, -17px);
   font-family: var(--font-header);
-  font-size: clamp(85px, 5vw, 95px);
+  font-size: clamp(85px, 65vw, 105px);
   text-transform: uppercase;
   text-shadow: 1px 1px 0 var(--secondary-color),
     -1px 1px 0 var(--secondary-color), -1px -1px 0 var(--secondary-color),
@@ -133,7 +133,7 @@ header h1 {
   font-family: var(--font-header);
   background-color: var(--accent-color);
   color: var(--primary-color);
-  line-height: clamp(22px, 0vw, 27px);
+  line-height: clamp(22px, 2vw, 27px);
   height: 100px;
   box-shadow: inset 0px 0px 0px 5px var(--primary-color),
     5px 5px 0 var(--secondary-color);
@@ -141,6 +141,15 @@ header h1 {
   border-radius: 10px;
   transition: 0.2s;
 }
+@media all and (min-width:1500px) {
+  .listen-button {
+    padding: 25px 3.8vw;
+    line-height: clamp(22px, 2vw, 27px);
+    height: 100px;
+  }
+  
+}
+
 .listen-button p {
   position: relative;
   top:clamp(-2px, 5vw, -5px);

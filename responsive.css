@@ -452,8 +452,8 @@ main {
   .music-section-container p {
     position: relative;
     color:var(--secondary-color);
-    top:30px;
-    font-size:14px;
+    top:70px;
+    font-size:15px;
    letter-spacing: 1px;
    line-height: 17px;
   }

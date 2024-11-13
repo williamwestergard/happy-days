@@ -8,3 +8,5 @@ function hideMusicLinks(){
     document.getElementById("main-content").style.display = "block";
     document.getElementById("music-section").style.display = "none";
 }
+
+

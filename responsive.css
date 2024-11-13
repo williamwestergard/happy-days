@@ -10,7 +10,7 @@ main {
     margin: auto;
     text-align: center;
     position: absolute;
-    top: 49%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:860px;
@@ -412,7 +412,7 @@ main {
   align-content: center;
   gap:15px;
   position: absolute;
-  top:54%;
+  top:55%;
   left:50%;
   transform: translate(-50%, -50%);
   }
@@ -451,9 +451,8 @@ main {
   }
   .music-section-container p {
     position: relative;
-    color:var(--secondary-color);
-    top:70px;
-    font-size:15px;
+    top:50px;
+    font-size:14px;
    letter-spacing: 1px;
    line-height: 17px;
   }

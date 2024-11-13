@@ -291,6 +291,14 @@ flex-direction: column;
   flex-direction: row;
   justify-content: space-evenly;
 }
+.music-socials-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top:60px;
+  gap:15px;
+}
 
 .socials {
   background-color: var(--secondary-color);
@@ -506,10 +514,10 @@ transform: translate(-50%, -50%);
 body {  
   background: repeating-linear-gradient(
   45deg,
-  rgb(24, 61, 56),
-  #2a2926 5%,
-  #1b4944 5%,
-  #2a2926 10%);
+  rgb(20, 49, 45),
+  #232320 5%,
+  #163a36 5%,
+  #232320 10%);
   background-size: 300px 300px;
   animation: move-it 4s linear infinite;
 }

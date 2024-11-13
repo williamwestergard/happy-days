@@ -8,6 +8,7 @@
   </head>
   <body>
     <main>
+      <section id="main-content">
       <section class="main-container">
 
         <article class="audio-tag">audio</article>
@@ -40,7 +41,7 @@
           />
         </section>
         <section class="listen-now-container">
-            <article class="listen-button">
+            <article class="listen-button" onclick="showMusicLinks()">
               <br />
               <p>Listen here</p>
               <span class="listen-button-info"
@@ -67,9 +68,15 @@
             <section class="follow">
               <h3>Follow On</h3>
               <section class="socials-container">
-             <a href="#"> <article class="socials"></article></a>
-             <a href="#"> <article class="socials"></article></a>
-             <a href="#"> <article class="socials"></article></a>
+             <a href="#"> <article class="socials">
+              <img src="img/icons/twitter.png">
+             </article></a>
+             <a href="#"> <article class="socials">
+              <img src="img/icons/soundcloud.png">
+             </article></a>
+             <a href="#"> <article class="socials">
+              <img src="img/icons/youtube.png">
+             </article></a>
             </section>
             </section>
           </section>
@@ -90,6 +97,25 @@
         </section>
       </section>
       <section class="animated-circle"></section>
+    </section>
+
+
+    <section id="music-section">
+      <button id="back" onclick="hideMusicLinks()"><p>Go back</p></button>
+      <section class="music-section-container">
+          <h3><a href="#">Spotify</a> </h3>
+          <h3><a href="#">Youtube </a> </h3>
+          <h3><a href="#">Bandcamp</a> </h3>
+          <h3><a href="#">Soundcloud</a> </h3>
+
+          <p>Happy Days by Wilwester 
+            <br> created 2024</p>
+    </section>
+    </section>
+
     </main>
+
+<script src="javascript.js"></script>
+
   </body>
 </html>

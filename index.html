@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/icons/wilwes-favicon.png" />
+
     <title>Happy Days</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
-    
+
+    <audio controls id="songs-teaser">
+      <source src="audio/happy-days-teaser.mp3">
+      Your browser does not support the audio element.
+      </audio>
+
     <main>
       <section id="main-content">
       <section class="main-container">
@@ -26,6 +33,16 @@
         <section class="listen-album-container">
 
         <section class="album-cover">
+
+            <article id="play-button" onclick="playAudio()">
+              <img id="play-image" src="img/icons/play-button.png">
+            </article>
+
+            <article id="pause-button" onclick="pauseAudio()">
+              <img id="pause-image" src="img/icons/pause-button.png">
+            </article>
+
+
           <article class="album-art-tag">
             <p>
               <span class="songs-tag">songs</span>
@@ -59,10 +76,12 @@
         <section class="about">
           <section class="about-info">
           <h2><span class="music">Music</span>  Made</h2>
-          <p>By <span style="color:#ce886b"> @wilwester </span></p>
+          <p>By <a href="https://x.com/wilwester" target="_blank" style="text-decoration:none;"> <span class="wilwester-tag" style="color:#ce886b"> @wilwester </span> </a></p>
         </section>
 
+      
           <img class="about-image" src="img/profile-pic.jpg">
+   
           <span class="border-radius"></span>
           <span class="border-radius-lower"></span>
           <section class="side-section">
@@ -70,13 +89,13 @@
             <section class="follow">
               <h3>Follow On</h3>
               <section class="socials-container">
-             <a href="#"> <article class="socials">
+             <a href="https://x.com/wilwester" target="_blank"> <article class="socials">
               <img src="img/icons/twitter.png">
              </article></a>
-             <a href="#"> <article class="socials">
+             <a href="https://soundcloud.com/wilwester" target="_blank"> <article class="socials">
               <img src="img/icons/soundcloud.png">
              </article></a>
-             <a href="#"> <article class="socials">
+             <a href="https://www.youtube.com/@wilwester" target="_blank"> <article class="socials">
               <img src="img/icons/youtube.png">
              </article></a>
             </section>
@@ -113,13 +132,13 @@
           <p>Happy Days by Wilwester 
             <br> created 2024</p>
               <section class="music-socials-container">
-             <a href="#"> <article class="socials">
+             <a href="https://x.com/wilwester" target="_blank"> <article class="socials">
               <img src="img/icons/twitter.png">
              </article></a>
-             <a href="#"> <article class="socials">
+             <a href="https://soundcloud.com/wilwester" target="_blank"> <article class="socials">
               <img src="img/icons/soundcloud.png">
              </article></a>
-             <a href="#"> <article class="socials">
+             <a href="https://www.youtube.com/@wilwester" target="_blank"> <article class="socials">
               <img src="img/icons/youtube.png">
              </article></a>
             </section>

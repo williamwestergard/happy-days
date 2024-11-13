@@ -491,3 +491,25 @@ transform: translate(-50%, -50%);
  letter-spacing: 1px;
  line-height: 17px;
 }
+
+
+
+/*Animated background */
+@keyframes move-it {
+  0% {
+    background-position: initial;
+  }
+  100% {
+    background-position: 300px 0px;
+  }
+}
+body {  
+  background: repeating-linear-gradient(
+  45deg,
+  rgb(24, 61, 56),
+  #2a2926 5%,
+  #1b4944 5%,
+  #2a2926 10%);
+  background-size: 300px 300px;
+  animation: move-it 4s linear infinite;
+}

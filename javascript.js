@@ -32,3 +32,10 @@ audio.addEventListener("ended", (event) => {
     document.getElementById("play-image").style.display ="block"; 
 });
 
+
+function stopMusic() {
+    audio.pause();
+    document.getElementById("pause-button").style.display ="none";
+    document.getElementById("play-image").style.display ="block"; 
+}
+

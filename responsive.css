@@ -1130,7 +1130,7 @@ main {
       margin-bottom:110px;
       text-align: center;
       position: relative;
-      top: 63vh;
+      top: 68vh;
       left: 193px;
       width:94%;
       height: auto;
@@ -1145,6 +1145,11 @@ main {
       background-color: var(--third-color);
       color: var(--primary-color);
       padding: 45px 39px;
+    }
+    .listen-button p {
+      position: relative;
+      top:-5px;
+      font-size: 48px;
     }
     
     

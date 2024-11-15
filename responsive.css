@@ -1280,8 +1280,11 @@ main {
       position: absolute;
       top:-52vh;
       left:80px;
-
     }
+    #back p {
+      position: relative;
+      top:3px;
+     }
 
   }
 

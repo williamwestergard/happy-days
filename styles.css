@@ -20,6 +20,7 @@
 }
 
 body {
+  overflow:hidden;
   background-color: var(--secondary-color);
   font-family: var(--font-body);
   text-transform: uppercase;
@@ -540,7 +541,7 @@ transform: translate(-50%, -50%);
   width:350px;
   padding:17px 20px 12px;
   position: relative;
-  top:25px;
+  top:15px;
   border-radius: 15px;
   box-shadow: inset 0px 0px 0px 3px var(--primary-color),
     3px 3px 0 var(--secondary-color);

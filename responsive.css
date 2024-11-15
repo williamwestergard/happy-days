@@ -470,7 +470,7 @@ main {
 
 
   /* Phone size */
-  @media all and (max-width:600px) {
+  @media all and (max-width:500px) {
 
     body {
       overflow:auto;
@@ -478,11 +478,12 @@ main {
 
     main {
       margin: auto;
-      margin-top:65px;
+      margin-top:10px;
+      margin-bottom:110px;
       text-align: center;
       position: relative;
-      top: 86vh;
-      left: 227px;
+      top: 83vh;
+      left: 176px;
       width:94%;
       height: auto;
       background-color: var(--primary-color);
@@ -524,7 +525,7 @@ main {
       left:-3px;
       background-color: var(--third-color);
       color: var(--primary-color);
-      padding: 50px 30px;
+      padding: 45px 22px;
       box-shadow: inset 0px 0px 0px 5px var(--primary-color);
       border: 3px solid var(--secondary-color);
       display: flex;
@@ -533,9 +534,9 @@ main {
     }
     header h1 {
       position: relative;
-      top: -35px;
+      top: -30px;
       font-family: var(--font-header);
-      font-size: 65px;
+      font-size: 50px;
       text-transform: uppercase;
       text-shadow: 1px 1px 0 var(--secondary-color),
         -1px 1px 0 var(--secondary-color), -1px -1px 0 var(--secondary-color),
@@ -544,14 +545,14 @@ main {
     }
     .slogan {
       position: relative;
-      top: -25px;
+      top: -20px;
       font-family: var(--font-header);
       position: relative;
       left: 0px;
       text-align: center;
       line-height: 0px;
       letter-spacing: 2px;
-      font-size: 22px;
+      font-size: 16px;
       text-transform: uppercase;
       text-shadow: 1px 1px 0 var(--secondary-color),
         -1px 1px 0 var(--secondary-color), -1px -1px 0 var(--secondary-color),
@@ -560,13 +561,13 @@ main {
     }
     .slogan-japan {
       position: relative;
-      top: 10px;
+      top: 11px;
       font-family: var(--font-header);
       position: relative;
       left: 0px;
       text-align: center;
       line-height: 0px;
-      font-size: 21px;
+      font-size: 19px;
       text-transform: uppercase;
       text-shadow: 1px 1px 0 var(--secondary-color),
         -1px 1px 0 var(--secondary-color), -1px -1px 0 var(--secondary-color),
@@ -580,7 +581,7 @@ main {
       justify-content: flex-start;
       align-self: flex-start;
       position: relative;
-      bottom: -40px;
+      bottom: -41px;
     }
     
     .listen-button {
@@ -590,7 +591,7 @@ main {
       position: relative;
       top: -18px;
       left:-9px;
-      padding: 25px 39px;
+      padding: 25px 34px;
       font-family: var(--font-header);
       background-color: var(--accent-color);
       color: var(--primary-color);
@@ -608,7 +609,7 @@ main {
     .listen-button p {
       position: relative;
       top:-6px;
-      font-size: 55px;
+      font-size: 45px;
     }
     
     .listen-button-info {
@@ -616,8 +617,8 @@ main {
       font-family: var(--font-body);
       color: var(--primary-color);
       position: relative;
-      top:7px;
-      font-size: 13px;
+      top:5px;
+      font-size: 11px;
     }
     .listen-button:active {
       cursor: pointer;
@@ -635,7 +636,7 @@ main {
       justify-content: flex-start;
       align-self: flex-start;
       position: relative;
-      top: 10px;
+      top: 12px;
       left:-9px;
     }
     .album-cover-art {
@@ -738,12 +739,12 @@ main {
         gap:clamp(10px, 0vw, 20px);
         margin-top:45px;
         position: relative;
-        left:-23px;
+        left:-19px;
     }
     
     .about {
         width:112%;
-        height:245px;
+        height:218px;
         background-color: var(--secondary-color);
         position: relative;
         border-radius: 0px;
@@ -757,22 +758,23 @@ main {
     .about h2 {
       font-family: var(--font-header);
       color:var(--primary-color);
-      font-size:55px;
-      line-height: 40px;
+      font-size:48px;
+      line-height: 35px;
       position: relative;
+      top:0px;
     }
     .music {
-      font-size:45px;
+      font-size:38px;
     }
     .about p {
       position: relative;
-      top:6px;
+      top:4px;
       color:var(--primary-color);
     }
     .about-info {
-      font-size:17px;
+      font-size:15px;
       letter-spacing: 1px;
-      padding:20px 0px 20px 40px;
+      padding:20px 0px 20px 20px;
       position: relative;
       top:5px;
       text-align: left;
@@ -781,11 +783,11 @@ main {
     }
     .about-image {
       position: relative;
-      margin-right:-10px;
+      margin-right:-18px;
       top:2px;
       padding:30px 30px 30px 30px;
-      width:240px;
-      height:240px;
+      width:217px;
+      height:217px;
       border-radius: 34px;
       transition: .3s;
     }
@@ -809,7 +811,7 @@ main {
       width:15px;
       height:25px;
       bottom:0px;
-      left:220px;
+      left:160px;
       z-index:10;
       position: absolute;
     }
@@ -819,16 +821,16 @@ main {
       position: absolute;
       background-color: var(--primary-color);
       bottom:-1px;
-      width:220px;
-      height:90px;
+      width:160px;
+      height:80px;
       border-top-right-radius: 10px;
     }
     
     
     .follow {
       position: relative;
-      left:5px;
-      margin-top:13px;
+      left:0px;
+      margin-top:11px;
       font-size: 13px;
       letter-spacing: 3px;
     }
@@ -837,9 +839,9 @@ main {
       display:flex;
       flex-direction: row;
       justify-content: space-evenly;
-      width:165px;
-      left:26px;
-      top:5px;
+      width:150px;
+      left:4px;
+      top:3px;
       position: relative;
     }
     .music-socials-container {
@@ -853,8 +855,8 @@ main {
     
     .socials {
       background-color: var(--secondary-color);
-      width:35px;
-      height:35px;
+      width:32px;
+      height:32px;
       border-radius: 5px;
       display:flex;
       justify-content: center;
@@ -909,35 +911,35 @@ main {
       top:17px;
       font-family: var(--font-body);
       background-color: var(--third-color);
-      font-size: 23px;
+      font-size: 18px;
       letter-spacing: 2px;
-      padding:4px 18px 0px;
-      height:30px;
+      padding:3px 18px 0px;
+      height:29px;
     }
     
     .info-border h2 {
       position: relative;
       top:22px;
-      line-height: 37px;
+      line-height: 32px;
       letter-spacing: 2px;
-      font-size:38px;
+      font-size:31px;
     }
     .info-border p {
       position: relative;
       top:30px;
       font-family: var(--font-body);
-      font-size: 13px;
+      font-size: 12px;
       line-height: 17px;
       letter-spacing: 1px;
-      padding:0px 130px 0 0;
+      padding:0px 110px 0 0;
     }
     
     .animated-circle {
       position: absolute;
-      bottom:-85px;
-      left:300px;
-      width:140px;
-      height:140px;
+      bottom:-90px;
+      left:225px;
+      width:115px;
+      height:115px;
       margin-bottom: 0px;
       border:2px solid var(--secondary-color);
       background-color: var(--primary-color);
@@ -1078,30 +1080,3 @@ main {
 
 
 
-
-  @media all and (max-width:499px) {
-    main {
-      margin-top:125px;
-    }
-    .info {
-      height:175px;
-    }
-    .animated-circle {
-      bottom:-133px;
-      left:300px;
-      width:140px;
-      height:140px;
-    }
-      
-    #music-section {
-      height:100%;
-      width:100%;
-      top:-25vh;
-      left:30%;
-      transform: translate(-50%, -50%);
-    }
-        
-    #back {
-      margin-top:20px;
-    }
-  }

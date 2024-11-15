@@ -1144,12 +1144,12 @@ main {
       left:-3px;
       background-color: var(--third-color);
       color: var(--primary-color);
-      padding: 45px 34px;
+      padding: 50px 34px;
     }
 
     header h1 {
       position: relative;
-      top: -20px;
+      top: -15px;
       font-family: var(--font-header);
       font-size: 52px;
       text-transform: uppercase;
@@ -1160,14 +1160,14 @@ main {
     }
     .slogan {
       position: relative;
-      top: -14px;
+      top: -9px;
       font-family: var(--font-header);
       position: relative;
       left: 0px;
       text-align: center;
       line-height: 0px;
       letter-spacing: 2px;
-      font-size: 16px;
+      font-size: 15px;
       text-transform: uppercase;
       text-shadow: 1px 1px 0 var(--secondary-color),
         -1px 1px 0 var(--secondary-color), -1px -1px 0 var(--secondary-color),
@@ -1176,7 +1176,7 @@ main {
     }
     .slogan-japan {
       position: relative;
-      top: 11px;
+      top: 19px;
       font-family: var(--font-header);
       position: relative;
       left: 0px;
@@ -1192,8 +1192,8 @@ main {
 
     .listen-button p {
       position: relative;
-      top:-2px;
-      font-size: 49px;
+      top:0px;
+      font-size: 51px;
     }
 
     .about-info-container {
@@ -1265,6 +1265,16 @@ main {
       height:115px;
     }
 
+    #music-section {
+      display:none;
+      position: absolute;
+      height:100%;
+      width:100%;
+      top:-11vh;
+      left:30%;
+      transform: translate(-50%, -50%);
+    }
+
     #back {
       display:flex;
       justify-content: flex-start;
@@ -1278,10 +1288,11 @@ main {
       border:2px solid var(--secondary-color);
       border-radius:5px;
       position: absolute;
-      top:-52vh;
+      top:-62vh;
       left:80px;
 
     }
+    
 
   }
 

@@ -1080,7 +1080,7 @@ main {
 
 
   /* Phone size small*/
-  @media all and (min-width:390px) and (max-width:412px) {
+  @media all and (min-width:390px) and (max-width:400px) {
 
    
     main {
@@ -1114,6 +1114,68 @@ main {
       position: absolute;
       bottom:-90px;
       left:240px;
+      width:115px;
+      height:115px;
+    }
+  }
+
+
+  /* Phone size small 2*/
+  @media all and (min-width:401px) and (max-width:413px) {
+
+   
+    main {
+      margin: auto;
+      margin-top:15px;
+      margin-bottom:110px;
+      text-align: center;
+      position: relative;
+      top: 62vh;
+      left: 193px;
+      width:94%;
+      height: auto;
+      background-color: var(--primary-color);
+      border-radius: 5px;
+      box-shadow: none;
+    }
+    header {
+      position: relative;
+      margin-top: 15px;
+      left:-3px;
+      background-color: var(--third-color);
+      color: var(--primary-color);
+      padding: 45px 39px;
+    }
+    
+    
+    .about-info-container {
+      display:flex;
+      flex-direction: column;
+      gap:clamp(10px, 0vw, 20px);
+      margin-top:45px;
+      position: relative;
+      left:-20px;
+  }
+
+    .about-image {
+      position: relative;
+      margin-right:-8px;
+      top:2px;
+      padding:30px 30px 30px 30px;
+      width:222px;
+      height:222px;
+    }
+    
+
+    .info-border p {
+      padding:0px 115px 0 0;
+    }
+    
+
+    .animated-circle {
+      position: absolute;
+      bottom:-90px;
+      left:260px;
       width:115px;
       height:115px;
     }

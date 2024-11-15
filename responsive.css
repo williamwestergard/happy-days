@@ -1144,7 +1144,7 @@ main {
       left:-3px;
       background-color: var(--third-color);
       color: var(--primary-color);
-      padding: 50px 34px;
+      padding: 53px 34px;
     }
 
     header h1 {
@@ -1167,7 +1167,7 @@ main {
       text-align: center;
       line-height: 0px;
       letter-spacing: 2px;
-      font-size: 15px;
+      font-size: 16px;
       text-transform: uppercase;
       text-shadow: 1px 1px 0 var(--secondary-color),
         -1px 1px 0 var(--secondary-color), -1px -1px 0 var(--secondary-color),
@@ -1176,13 +1176,13 @@ main {
     }
     .slogan-japan {
       position: relative;
-      top: 19px;
+      top: 20px;
       font-family: var(--font-header);
       position: relative;
       left: 0px;
       text-align: center;
       line-height: 0px;
-      font-size: 20px;
+      font-size: 21px;
       text-transform: uppercase;
       text-shadow: 1px 1px 0 var(--secondary-color),
         -1px 1px 0 var(--secondary-color), -1px -1px 0 var(--secondary-color),
@@ -1292,6 +1292,10 @@ main {
       left:80px;
 
     }
+    #back p {
+      position: relative;
+      top:3px;
+     }
     
 
   }

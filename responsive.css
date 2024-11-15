@@ -1088,7 +1088,7 @@ main {
 
 
   /* Phone size big*/
-  @media all and (min-width:414px) {
+  @media all and (min-width:414px) and (max-width:600px) {
 
     body {
       overflow:auto;
@@ -1702,7 +1702,7 @@ main {
   
 
   /* Phone size bigger*/
-  @media all and (min-width:429px) {
+  @media all and (min-width:429px) and (max-width:529px) {
 
     body {
       overflow:auto;

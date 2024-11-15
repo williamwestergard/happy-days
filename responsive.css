@@ -1243,8 +1243,16 @@ main {
       height:223px;
     }
     
+    .info-border h2 {
+      position: relative;
+      top:30px;
+      line-height: 32px;
+      letter-spacing: 2px;
+      font-size:31px;
+    }
 
     .info-border p {
+      top:37px;
       padding:0px 115px 0 0;
     }
     

@@ -131,7 +131,7 @@ header h1 {
   position: relative;
   top: -17px;
   left:-10px;
-  padding: 25px 3.1vw;
+  padding: 25px 39px;
   font-family: var(--font-header);
   background-color: var(--accent-color);
   color: var(--primary-color);
@@ -540,7 +540,7 @@ transform: translate(-50%, -50%);
   width:350px;
   padding:17px 20px 12px;
   position: relative;
-  top:20px;
+  top:25px;
   border-radius: 15px;
   box-shadow: inset 0px 0px 0px 3px var(--primary-color),
     3px 3px 0 var(--secondary-color);
@@ -562,7 +562,7 @@ transform: translate(-50%, -50%);
   font-family: var(--font-body);
  text-decoration: none;
  color:var(--primary-color);
- font-size:21px;
+ font-size:22px;
  letter-spacing: 2px;
  position: relative;
   top:-15px;

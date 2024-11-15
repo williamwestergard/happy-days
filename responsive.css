@@ -102,7 +102,7 @@ main {
     justify-content: flex-start;
     align-self: flex-start;
     position: absolute;
-    bottom: 14px;
+    bottom: 17px;
   }
   
   .listen-button p {
@@ -320,14 +320,14 @@ main {
   }
   
   .info-border h2 {
-    margin-top:30px;
+    margin-top:15px;
     line-height: 30px;
     letter-spacing: 2px;
     font-size: 29px;
   }
   .info-border p {
     position: relative;
-    margin-top:6px;
+    margin-top:10px;
     font-family: var(--font-body);
     font-size: 12px;
     line-height: 17px;

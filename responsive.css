@@ -1130,7 +1130,7 @@ main {
       margin-bottom:110px;
       text-align: center;
       position: relative;
-      top: 62vh;
+      top: 72vh;
       left: 193px;
       width:94%;
       height: auto;
@@ -1146,6 +1146,7 @@ main {
       color: var(--primary-color);
       padding: 45px 39px;
     }
+    
     
     
     .about-info-container {
@@ -1179,6 +1180,25 @@ main {
       width:115px;
       height:115px;
     }
+
+    #back {
+      display:flex;
+      justify-content: flex-start;
+      text-align: center;
+      font-size: 21px;
+      letter-spacing: 1px;
+      font-family: var(--font-header);
+      color:var(--primary-color);
+      background-color: var(--accent-color);
+      border:none;
+      border:2px solid var(--secondary-color);
+      border-radius:5px;
+      position: absolute;
+      top:-52vh;
+      left:80px;
+
+    }
+
   }
 
 

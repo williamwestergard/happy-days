@@ -2531,3 +2531,11 @@ main {
 
 
 
+  @media all and (min-width:190px) and (max-width:800px) { 
+    body {
+      background:none;
+      background-color: var(--secondary-color);
+      animation:none;
+      background-size: auto;
+    }
+  }

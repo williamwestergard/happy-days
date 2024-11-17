@@ -52,7 +52,7 @@ main {
 
 .audio-tag {
   position: relative;
-  left: clamp(30.5px, 2vw, 95px);
+  left:31px;
   align-self: flex-start;
   background-color: var(--secondary-color);
   color: var(--primary-color);

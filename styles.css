@@ -597,10 +597,10 @@ transform: translate(-50%, -50%);
 body {  
   background: repeating-linear-gradient(
   45deg,
-  #202523,
-  #202523 5%,
-  #202523 5%,
-  #1d1c1a 10%);
+  #2a2926,
+  #2a2926 5%,
+  #2a2926 5%,
+  #2f2e2a 10%);
   background-size: 300px 300px;
   animation: move-it 4s linear infinite;
 } 

@@ -30,7 +30,7 @@ main {
   margin: auto;
   text-align: center;
   position: absolute;
-  top: 49%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width:clamp(720px, 50vw, 847px);
@@ -597,10 +597,10 @@ transform: translate(-50%, -50%);
 body {  
   background: repeating-linear-gradient(
   45deg,
-  rgb(20, 49, 45),
-  #232320 5%,
-  #163a36 5%,
-  #232320 10%);
+  rgb(17, 30, 28),
+  #11110f 5%,
+  #101413 5%,
+  #171716 10%);
   background-size: 300px 300px;
   animation: move-it 4s linear infinite;
 } 

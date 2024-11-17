@@ -597,10 +597,12 @@ transform: translate(-50%, -50%);
 body {  
   background: repeating-linear-gradient(
   45deg,
+
   rgb(17, 30, 28),
   #11110f  5%,
   #101413  5%,
   #171716  10%);
+
   background-size: 300px 300px;
   animation: move-it 4s linear infinite;
   

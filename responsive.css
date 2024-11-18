@@ -469,7 +469,7 @@ main {
 
 
   /* Phone size smaller*/
-  @media all and (min-width:180px) and (max-width:413px) {
+  @media all and (min-width:180px) and (max-width:414px) {
 
     body {
       overflow:auto;
@@ -481,7 +481,7 @@ main {
       margin-bottom:110px;
       text-align: center;
       position: relative;
-      top: 83vh;
+      top: 79vh;
       left: 176px;
       width:94%;
       height: auto;
@@ -1080,17 +1080,17 @@ main {
 
 
   /* Phone size small*/
-  @media all and (min-width:390px) and (max-width:400px) {
+  @media all and (min-width:375px) and (max-width:400px) {
 
    
     main {
       margin: auto;
-      margin-top:15px;
+      margin-top:35px;
       margin-bottom:110px;
       text-align: center;
       position: relative;
-      top: 66vh;
-      left: 183px;
+      top: 83vh;
+      left: 188px;
       width:94%;
       height: auto;
       background-color: var(--primary-color);
@@ -1121,7 +1121,7 @@ main {
 
 
   /* Phone size small 2*/
-  @media all and (min-width:401px) and (max-width:413px) {
+  @media all and (min-width:401px) and (max-width:414px) {
 
    
     main {
@@ -1307,7 +1307,7 @@ main {
 
 
   /* Phone size big*/
-  @media all and (min-width:414px) and (max-width:428px) {
+  @media all and (min-width:414px) and (max-width:450px) {
 
     body {
       overflow:auto;
@@ -1315,7 +1315,7 @@ main {
 
     main {
       margin: auto;
-      margin-top:-170px;
+      margin-top:-20px;
       margin-bottom:290px;
       text-align: center;
       position: relative;
@@ -1805,7 +1805,7 @@ main {
       position: absolute;
       height:100%;
       width:100%;
-      top:-21vh;
+      top:-41vh;
       left:32%;
       transform: translate(-50%, -50%);
     }
@@ -1918,10 +1918,31 @@ main {
 
 
 
+  /* Phone size bigger*/
+  @media all and (min-width:428px) and (max-width:450px) {
+
+    main {
+      margin: auto;
+      margin-top:-30px;
+      margin-bottom:290px;
+      text-align: center;
+      position: relative;
+      top: 83vh;
+      left: 202px;
+      width:94%;
+      height: auto;
+      background-color: var(--primary-color);
+      border-radius: 5px;
+      box-shadow: none;
+    }
+  }
+
+
+
   
 
-  /* Phone size bigger*/
-  @media all and (min-width:429px) and (max-width:600px) {
+  /* Phone size biggest*/
+  @media all and (min-width:450px) and (max-width:600px) {
 
     body {
       overflow:auto;
